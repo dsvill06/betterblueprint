@@ -28,12 +28,12 @@ const Footer = () => {
               </h2>
               <ul class="text-flashWhite font-medium">
                 <li class="mb-4">
-                  <a href="#contactUs" class="hover:underline">
+                  <a href="/contactUs" class="hover:underline">
                     Contact Us
                   </a>
                 </li>
                 <li>
-                  <a href="#aboutUs" class="hover:underline">
+                  <a href="/aboutUs" class="hover:underline">
                     Services
                   </a>
                 </li>
