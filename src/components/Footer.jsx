@@ -1,5 +1,6 @@
 import React from "react";
-import { betterblue, logo, fulllogo } from "../assets";
+import { betterblue, logo, fulllogo, jola } from "../assets";
+
 
 const Footer = () => {
   return (
