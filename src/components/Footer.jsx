@@ -4,8 +4,8 @@ import { betterblue, logo, fulllogo, jola } from "../assets";
 
 const Footer = () => {
   return (
-    <footer class="bg-eerieBlack w-screen">
-      <div class="mx-auto w-full max-w-7xl p-4 py-6 lg:py-8">
+    <footer class="bg-eerieBlack w-full">
+      <div class="mx-auto w-full  p-4 py-6 lg:py-8">
         <div class="flex flex-col md:flex-row justify-between">
           <div class="mb-6 md:mb-0">
             <a class="flex items-center">
