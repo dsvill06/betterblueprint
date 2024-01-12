@@ -7,6 +7,7 @@
 .root {
   background: white;
 }
+
 @font-face {
   font-family: 'Arenq';
   src: url('./fonts/arenq.otf');
