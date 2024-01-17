@@ -13,12 +13,12 @@ const PriceCard = ({ type, title, price, bullets, moreInfo, index }) => {
 
   return (
     <div className=" w-full lg:w-1/4">
-      <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+      <div
+       
         className=" md:h-[415px] h-auto m-5 p-5 border-taupe border-2 rounded-xl flex flex-col gap-2 hover:cursor-pointer shadow-lg mt-10 "
         onClick={() => setIsOpen(true)}
       >
-        <div className="grid grid-flow-row gap-y-1">
+        <div className="flex flex-col gap-y-1">
           <h1 className=" text-battleGray text-xl">{type}:</h1>
           <h2 className="text-eerieBlack font-bold text-2xl">{title}</h2>
           <p className="text-[#2c4b76] text-5xl ">
@@ -33,7 +33,7 @@ const PriceCard = ({ type, title, price, bullets, moreInfo, index }) => {
           {bullets.map((bullet, index) => {
             return (
               <ol className="flex flex-row">
-                <li className=" text-jet flex flex-row mt-2">{bullet}</li>
+                <li className=" text-jet mt-2">{bullet}</li>
               </ol>
             );
           })}
@@ -50,7 +50,7 @@ const PriceCard = ({ type, title, price, bullets, moreInfo, index }) => {
             Find out more
           </motion.button>
         </div>
-      </motion.div>
+      </div>
       <SpringModal
         isOpen={isOpen}
         setIsOpen={setIsOpen}
