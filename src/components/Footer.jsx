@@ -1,10 +1,15 @@
 import React from "react";
 import { betterblue, logo, fulllogo, jola } from "../assets";
+import { Link, useLocation } from 'react-router-dom';
+
+const path = window.location.pathname
 
 
 const Footer = () => {
+ 
+
   return (
-    <footer class="bg-eerieBlack w-[715px] md:w-full">
+    <footer class={`bg-eerieBlack ${path == '/contactUs' ? 'w-[715px]': ''} md:w-full`}>
       <div class=" w-full  p-4 py-6 lg:py-8">
         <div class="flex flex-col md:flex-row justify-between">
           <div class="mb-6 md:mb-0">
