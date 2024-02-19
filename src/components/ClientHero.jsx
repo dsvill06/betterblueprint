@@ -21,7 +21,7 @@ const ClientHero = () => {
         </p>
         <a href="#clients">
           <button className="bg-[#acc9f4] text-flashWhite font-medium py-2 px-4 rounded transition-all hover:bg-[#81aff4] active:scale-95">
-            Find a class
+            Clients List
           </button>
         </a>
       </div>
