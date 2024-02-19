@@ -5,5 +5,6 @@ import SpringModal from "./Modal";
 import Navbar from "./Navbar";
 import { SwipeCarousel } from "./SwipeCarousel";
 import Services from "./Services";
-
-export {Hero, Footer, About, SpringModal, Navbar, SwipeCarousel, Services}
+import ClientHero from "./ClientHero";
+import { ClientList } from "./ClientList";
+export {Hero, Footer,About, ClientList, SpringModal, ClientHero, Navbar, SwipeCarousel, Services}

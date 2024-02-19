@@ -11,6 +11,8 @@ import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
 import ContactUs from "./components/ContactUs";
 import Contact from "./pages/Contact";
+import Clients from "./pages/Clients";
+import { ClientList } from "./components";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/aboutUs" element={<AboutUs />} />
           <Route exact path="/contactUs" element={<Contact/>}/>
+          <Route exact path="/clients/" element={(<Clients/>)}/>
         </Routes>
       </BrowserRouter>
       <Footer />

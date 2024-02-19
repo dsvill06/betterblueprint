@@ -9,6 +9,16 @@ import kwench from './kwench.png'
 import healthyheels from './healthyheels.png'
 import bpm from './bpm.png'
 import fulllogo from './fulllogo.png'
-import founder from './lauryn.webp'
+import founder from './founder.png'
+import david from './David.jpg'
+import aveni from './Logo_Aveni.png'
+import ml from './ML.jpeg'
+import hi from './hi.png'
+import goodsh from './goodshepard.png'
+import gs from './gs.png'
+import sma from './SMA.jpeg'
+import sma_1 from './sma-logo.webp'
+import r2cw from './r2cw.png'
+import ayana from './ayana.png'
 
-export {logo, founder, betterblue, bpm, blueprint, fulllogo, healthyheels, menu, consulting, kwench, franklin, jola}
+export {logo, hi,sma, ayana,founder, goodsh,sma_1,aveni,gs,r2cw, betterblue,ml, bpm, david,blueprint, fulllogo, healthyheels, menu, consulting, kwench, franklin, jola}

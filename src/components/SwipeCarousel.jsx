@@ -3,16 +3,18 @@ import { motion, useMotionValue } from "framer-motion";
 import { clients } from "../constants";
 import About from "./Experience";
 import { fadeIn } from "../utils/motion";
-import {useMediaQuery} from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
+import { Navigate } from "react-router-dom";
 
 const ClientCard = () => {
   return (
     <div className="mt-[10px] flex lg:flex-row  md:gap-x-44 min-h-[50vh] gap-[430px]">
-       {clients.map((client, index) => {
-         return(<motion.div
+      {clients.map((client, index) => {
+        return (
+          <motion.div
             variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
             className="xs:w-[250px] w-full p-[1px] rounded-[20px] "
-            whileHover={{scale: 1.1}}
+            whileHover={{ scale: 1.1 }}
             key={index}
           >
             <div className="relative ">
@@ -24,18 +26,25 @@ const ClientCard = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-primary to-100% rounded-[24px] p-4 ">
                   {" "}
-                  <h1 className="text-[#acc9f4] p-[1%] mx-auto font-poppins">{client.type}</h1>
-                  <h1 className="text-flashWhite p-[1%] mx-auto text-3xl font-poppins">{client.title}</h1>
-                  <p className="p-[1%] text-platinum text-lg">{client.description}</p>
+                  <h1 className="text-[#acc9f4] p-[1%] mx-auto font-poppins">
+                    {client.type}
+                  </h1>
+                  <h1 className="text-flashWhite p-[1%] mx-auto text-3xl font-poppins">
+                    {client.title}
+                  </h1>
+                  
                 </div>
               </div>
-      
-       
             </div>
-          </motion.div>)
-       })}
+          </motion.div>
+        );
+      })}
+      <div className="grid grid-flow-col align-middle my-auto pl-5 cursor-pointer ">
+        <a href="/clients"> 
+          <h1 className="text-3xl text-platinum hover:text-silver" >See More...</h1>
+        </a> 
       </div>
-    
+    </div>
   );
 };
 const ONE_SECOND = 1000;
@@ -44,7 +53,7 @@ const DRAG_BUFFER = 50;
 
 const SPRING_OPTIONS = {
   type: "spring",
-  mass: .5,
+  mass: 0.5,
   stiffness: 250,
   damping: 50,
 };
@@ -76,7 +85,7 @@ export const SwipeCarousel = () => {
   const onDragEnd = () => {
     const x = dragX.get();
 
-    if (x <= -DRAG_BUFFER ) {
+    if (x <= -DRAG_BUFFER) {
       setImgIndex((pv) => pv + 1);
     } else if (x >= DRAG_BUFFER && imgIndex > 0) {
       setImgIndex((pv) => pv - 1);
@@ -100,12 +109,15 @@ export const SwipeCarousel = () => {
         onDragEnd={onDragEnd}
         className="flex cursor-grab items-center active:cursor-grabbing"
       >
-        <ClientCard  />
+        <ClientCard />
       </motion.div>
 
-{isMobile ? <></>: <Dots imgIndex={imgIndex} setImgIndex={setImgIndex} />}
+      {isMobile ? (
+        <></>
+      ) : (
+        <Dots imgIndex={imgIndex} setImgIndex={setImgIndex} />
+      )}
     </div>
-
   );
 };
 
