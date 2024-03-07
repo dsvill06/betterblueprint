@@ -93,7 +93,7 @@ const ModalCard = ({ index, cards }) => {
         layoutId={cards[index].id}
         style={{
           width: `${isMobile ? "100vw": "70vw"}`,
-          height: "70vh",
+          height: `auto`,
           borderRadius: "20px",
           backgroundColor: "rgba(0,0,0,0.88)",
           // backgroundImage: `url(${cards[index].color})`,
