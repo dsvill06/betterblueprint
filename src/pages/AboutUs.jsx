@@ -64,7 +64,7 @@ const AboutUs = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.75 }}
-            className="font-poppins block text-lg bg-platinum h-fit md:shadow-card text-taupe md:w-full text-clip object-cover md:px-5 p-5  align-middle justify-center md:mt-36 text-center md:text-left "
+            className="font-poppins block text-lg bg-platinum h-fit md:shadow-card text-taupe md:w-full text-clip object-cover md:px-5 p-5  align-middle justify-center md:mt-36 text-center md:text-left order-2 md:order-1 "
           >
             <h1 className="text-3xl inset-1 text-battleGray text-center ">
               Website Designer/ Graphic Designer
@@ -84,7 +84,7 @@ const AboutUs = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 2, delay: 0.5 }}
             src={david}
-            className=" object-right-top shadow-card object-cover w-[500px] h-fit scale-75  md:ml-5"
+            className=" object-right-top shadow-card object-cover w-[500px] h-fit scale-75  md:ml-5  order-1 md:order-2"
           />
         </div>
       </div>

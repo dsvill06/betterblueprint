@@ -21,7 +21,7 @@ import {
           <img
             src={client.talent.img}
             alt={client.talent.title}
-            className=" h-full w-full object-cover object-middle"
+            className=" h-full w-full object-middle object-cover"
           />
         </CardHeader>
         <CardBody>

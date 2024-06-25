@@ -15,10 +15,10 @@ const ClientHero = () => {
        bg-overflow-hidden"
       >
         <LazyLoad>
-          <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{ duration: 0.8, delay: 0.2 }} src={client} alt="five" className="absolute  z-0 w-full h-full" />
+          <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{ duration: 0.8, delay: 0.2 }} src={client} alt="five" className="absolute  z-0 w-full h-full object-cover" />
         </LazyLoad>
 
-        <div className="w-full px-8 py-12 grid justify-center text-center items-center gap-8 max-w-6xl mx-auto">
+        <div className="w-full px-8 py-12 grid justify-center text-center items-center gap-8 max-w-6xl md:mx-auto mt-20">
           <motion.div
             initial={{ opacity: 0, x: -50 }} // Initial position for "Better Blueprint"
             animate={{ opacity: 1, x: 0 }}
