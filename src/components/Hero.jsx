@@ -12,8 +12,8 @@ const Hero = () => {
         overflow-hidden bg-flashWhite rounded-br-[350px] "
       >
         <div
-          className={`absolute inset-0 sm:top-[150px] top-[50px] 
-          lg:top-[100px] xl:top-[250px] ${styles.paddingX} 
+          className={`absolute inset-0 sm:top-[125px] top-[25px] 
+          lg:top-[80px] xl:top-[200px] ${styles.paddingX} 
           max-w-7xl mx-auto flex lg:flex-row flex-col items-start
           justify-between gap-3`}
         >
