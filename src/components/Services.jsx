@@ -7,13 +7,21 @@ import { motion } from "framer-motion";
 import SpringModal from "./Modal";
 import { FiCheck } from "react-icons/fi";
 import { fadeIn } from "../utils/motion";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
 
 const PriceCard = ({ type, title, price, bullets, moreInfo, index }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className=" w-full lg:w-1/4">
-      <div
+      {/* <div
        
         className=" md:h-[415px] h-auto m-5 p-5 border-taupe border-2 rounded-xl flex flex-col gap-2 hover:cursor-pointer shadow-lg mt-10 "
         onClick={() => setIsOpen(true)}
@@ -50,7 +58,84 @@ const PriceCard = ({ type, title, price, bullets, moreInfo, index }) => {
             Find out more
           </motion.button>
         </div>
-      </div>
+      </div> */}
+      <Card
+        color="gray"
+        variant="gradient"
+        className="w-full max-w-[20rem] p-8"
+      >
+        <CardHeader
+          floated={false}
+          shadow={false}
+          color="transparent"
+          className="m-0 mb-4 rounded-none border-b border-white/10 pb-4 text-center"
+        >
+          <Typography
+            variant="small"
+            color="white"
+            className="font-normal uppercase text-[#ADC9F3]"
+          >
+            {type}
+          </Typography>
+          <Typography
+            variant="h1"
+            color="white"
+            className="mt-4 flex justify-center gap-1 text-7xl font-normal"
+          >
+            <span className="mt-2 text-4xl">$</span>
+            {price}{" "}
+            <span className="self-end text-4xl">
+              {index === 1 || index === 2 ? "/month" : ""}
+            </span>
+          </Typography>
+        </CardHeader>
+        <CardBody className="p-0">
+          {bullets.map((bullet, index) => {
+            return (
+              <ol className="flex flex-row">
+                <li className="text-platinum mt-2">
+                  <Typography className="font-normal">{bullet}</Typography>
+                </li>
+              </ol>
+            );
+          })}
+          {/* <ul className="flex flex-col gap-4">
+            <li className="flex items-center gap-4">
+              <Typography className="font-normal">5 team members</Typography>
+            </li>
+            <li className="flex items-center gap-4">
+              <Typography className="font-normal">200+ components</Typography>
+            </li>
+            <li className="flex items-center gap-4">
+              <Typography className="font-normal">
+                40+ built-in pages
+              </Typography>
+            </li>
+            <li className="flex items-center gap-4">
+              <Typography className="font-normal">
+                1 year free updates
+              </Typography>
+            </li>
+            <li className="flex items-center gap-4">
+              <Typography className="font-normal">
+                Life time technical support
+              </Typography>
+            </li>
+          </ul> */}
+        </CardBody>
+        <CardFooter className="mt-8 p-0">
+          <Button
+            size="lg"
+            color="white"
+            className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
+            ripple={false}
+            fullWidth={true}
+            onClick={() => setIsOpen(true)}
+          >
+            Find out more
+          </Button>
+        </CardFooter>
+      </Card>
       <SpringModal
         isOpen={isOpen}
         setIsOpen={setIsOpen}
@@ -77,7 +162,7 @@ const Services = () => {
           Here are the services that we offer to develop your company or
           organization!
         </h2>
-        <div className="flex flex-col flex-wrap md:flex-row mt-4 justify-center">
+        <div className="flex flex-col flex-wrap md:flex-row mt-4 justify-center pl-5">
           {services.map((service, index) => {
             return (
               <PriceCard
