@@ -20,7 +20,7 @@ const PriceCard = ({ type, title, price, bullets, moreInfo, index }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className=" w-full lg:w-1/4">
+    <div className=" w-full ">
       {/* <div
        
         className=" md:h-[415px] h-auto m-5 p-5 border-taupe border-2 rounded-xl flex flex-col gap-2 hover:cursor-pointer shadow-lg mt-10 "
@@ -162,7 +162,7 @@ const Services = () => {
           Here are the services that we offer to develop your company or
           organization!
         </h2>
-        <div className="flex flex-col flex-wrap md:flex-row mt-4 justify-center pl-5">
+        <div className="grid md:grid-cols-4 flex-wrap md:flex-row mt-4 justify-center pl-5 gap-y-10">
           {services.map((service, index) => {
             return (
               <PriceCard
