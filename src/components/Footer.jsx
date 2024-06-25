@@ -17,11 +17,11 @@ const Footer = () => {
               <img
                 src={fulllogo}
                 class="me-3 h-20"
-                alt="BetterBlueprint Consulting Logo"
+                alt="Better Blueprint Consulting Logo"
               />
               <div>
                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-flashWhite flex-wrap-reverse">
-                  BetterBlueprint
+                  Better Blueprint
                 </span>
                 <span className="self-center text-2xl font-semibold text-flashWhite "> Consulting</span>
               </div>

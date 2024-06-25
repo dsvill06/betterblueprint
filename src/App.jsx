@@ -13,6 +13,8 @@ import ContactUs from "./components/ContactUs";
 import Contact from "./pages/Contact";
 import Clients from "./pages/Clients";
 import { ClientList } from "./components";
+import Talent from "./pages/Talent";
+
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route exact path="/aboutUs" element={<AboutUs />} />
           <Route exact path="/contactUs" element={<Contact/>}/>
           <Route exact path="/clients/" element={(<Clients/>)}/>
+          <Route exact path="/talent" element={(<Talent/>)}/>
+
         </Routes>
       </BrowserRouter>
       <Footer />

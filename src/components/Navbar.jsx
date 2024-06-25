@@ -18,7 +18,10 @@ const navLinks = [
     id: "clients",
     title: "Our Clients",
   },
-
+  {
+    id: "talent",
+    title: "Our Talent",
+  },
   {
     id: "contactUs",
     title: "Contact Us",

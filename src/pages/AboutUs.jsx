@@ -69,16 +69,15 @@ const AboutUs = () => {
             <h1 className="text-3xl inset-1 text-battleGray text-center ">
               Website Designer/ Graphic Designer
             </h1>
-            My name is David Villavicencio, and I am currently pursuing a degree
-            in Computer Science at the University of North Carolina at Chapel
-            Hill. Alongside my studies, I am also passionate about
-            Entrepreneurship and Engineering, which I am minoring in. I am
-            originally from Ecuador, but I also take great pride in my Colombian
-            heritage on my Mom's side. Through my experiences as a
-            first-generation immigrant facing various barriers in accessing
-            education, healthcare, and job opportunities I plan to use my
-            education and skills to promote the development of minority
-            communities within the United States using technology.
+            David Villavicencio is pursuing a Computer Science degree at the
+            University of North Carolina at Chapel Hill. Alongside his studies,
+            he is also passionate about Entrepreneurship and Engineering, which
+            he is minoring in. Originally from Ecuador, he also takes great
+            pride in his Colombian heritage on his Mom's side. Through his
+            experiences as a first-generation immigrant facing various barriers
+            in accessing education, healthcare, and job opportunities, he plans
+            to use his education and skills to promote the development of
+            minority communities within the United States using technology.
           </motion.p>
           <motion.img
             initial={{ opacity: 0 }}

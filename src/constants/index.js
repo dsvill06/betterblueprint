@@ -1,4 +1,27 @@
-import { aveni, ayana, bpm, five, four, franklin, goodsh, gs, healthyheels, hi, jola, kwench, ml, one, r2cw, seven, six, sma, sma_1, three, two } from "../assets";
+import {
+  aveni,
+  ayana,
+  bpm,
+  five,
+  four,
+  franklin,
+  goodsh,
+  gs,
+  healthyheels,
+  hi,
+  jola,
+  kwench,
+  ml,
+  one,
+  r2cw,
+  seven,
+  six,
+  sma,
+  sma_1,
+  three,
+  two,
+  ashton, chris, darius, jehlan, lauryn
+} from "../assets";
 
 export const navLinks = [
   {
@@ -22,19 +45,19 @@ export const squareData = [
   },
   {
     id: 2,
-    src:  franklin ,
+    src: franklin,
   },
   {
     id: 3,
-    src: healthyheels ,
+    src: healthyheels,
   },
   {
     id: 4,
-    src:  jola ,
+    src: jola,
   },
   {
     id: 5,
-    src:  kwench ,
+    src: kwench,
   },
   {
     id: 6,
@@ -171,18 +194,127 @@ export const services = [
 ];
 
 export let cards = [
-  { id: "0", title: "Kwench", color: "#e76f51", img: kwench, description:"Established a Tik tok and Instagram account for the brand Produced and published 80 engaging Instagram reels within six months Grew Instagram page from to 400 followers Best reel garnered 853 likes and 6000 views Helped with grand opening planning, menu design, and more"},
-  { id: "1", title: "Franklin Street Market", color: "#F4A261", img: franklin, description:"Created a strategic brand partnership between Celsius and a student-run festival company that resulted in a 15,000 dollar donation from Celsius to aid in event costs and a 10,000 dollar product donation for festival attendees and staff."},
-  { id: "2", title: "Jola House", color: "#e9c46a", img: jola, description:"Successfully sourced and onboarded a dedicated student social media intern, enhancing Jola House's online presence and engagement. Crafted a comprehensive launch plan for their pioneering college ambassador program, harnessing the power of student networks to amplify their impact. Infused fresh and trendy designs tailored to the college student demographic, adding a contemporary touch to Jola House's branding." },
-  { id: "3", title: "HealthyHeels", color: "#e9c46a", img: healthyheels, description:"Consistently produced 1-2 reels per week on health topics Proficiently managed Instagram engagement and interaction From July 26th to October 23rd, played a critical role in account growth, with a 3.7 percent increase in followers, a 1265 percent increase in accounts engaged, and a 287 percent increase in accounts reached compared to the previous 90-day periodMy top reel received 851 likes and 9.7k views " },
-  { id: "4", title: "Black Parent Magazine", color: "#264653", img: bpm, description:"Produced five live events on educational topics featuring black professionals, each averaging 4.6k views and 210k impressions. Negotiated partnerships with ten businesses to be featured in the annual holiday magazine. " },
-  { id: "5", title: "Aveni", color: "#e76f51", img: aveni, description: " LinkedIn Analysis and Engagement Improvement Plan  " },
-  { id: "6", title: "Memphis Listening Lab", color: "#F4A261", img: ml, description:"Created an Internal Guide for Social Media   " },
-  { id: "7", title: "HI", color: "#e9c46a", img: hi, description:'Aided brand in driving downloads of app through social media posts, club partnerships, and rebranding ambassador program  ' },
-  { id: "8", title: "Good Shephard RX", color: "#264653", img: goodsh, description:" Created Internal Social Media Plan  " },
-  { id: "9", title: "South Memphis Alliance", color: "#264653", img: sma_1, description:"Internal Social Media Plan, Graphic Design Assistance, Coordinated donation from Trader Joe’s  " },
-  { id: "10", title: "R2CW", color: "#264653", img: r2cw, description:"Social media Management and Content Creation  " },
-  { id: "11", title: "Ayana Bio", color: "#264653", img: ayana, description:"Content Calendar Creation" }
-
-
+  {
+    id: "0",
+    title: "Kwench Juice Cafe",
+    color: "#e76f51",
+    img: kwench,
+    description:
+      "Established a TikTok and Instagram account for the brand, produced and published 80 engaging Instagram reels over six months, and grew the Instagram page from zero to 500 followers. The best reel garnered 853 likes and 6000 views",
+  },
+  {
+    id: "1",
+    title: "Franklin Street Market",
+    color: "#F4A261",
+    img: franklin,
+    description:
+      "Created a strategic brand partnership between Celsius and a student-run festival company, resulting in a $15,000 donation from Celsius to aid in event costs and a $10,000 product donation for festival attendees and staff",
+  },
+  {
+    id: "2",
+    title: "Jola House",
+    color: "#e9c46a",
+    img: jola,
+    description:
+      "Successfully sourced and onboarded a dedicated student social media intern, enhancing Jola House's online presence and engagement. Crafted a comprehensive launch plan for their pioneering college ambassador program, harnessing the power of student networks to amplify their impact. Infused fresh and trendy designs tailored to the college student demographic, adding a contemporary touch to Jola House's branding",
+  },
+  {
+    id: "3",
+    title: "Healthy Heels",
+    color: "#e9c46a",
+    img: healthyheels,
+    description:
+      "Consistently produced 1-2 reels per week on health topics and proficiently managed Instagram engagement and interaction. From July 26th to October 23rd, played a critical role in account growth, achieving a 3.7 percent increase in followers, a 1265 percent increase in accounts engaged, and a 287 percent increase in accounts reached compared to the previous 90-day period. The top reel received 851 likes and 9.7k views",
+  },
+  {
+    id: "4",
+    title: "Black Parent Magazine",
+    color: "#264653",
+    img: bpm,
+    description:
+      "Produced five live events on educational topics featuring black professionals, each averaging 4.6k views and 210k impressions. Negotiated partnerships with ten businesses to be featured in the annual holiday magazine. ",
+  },
+  {
+    id: "5",
+    title: "Aveni",
+    color: "#e76f51",
+    img: aveni,
+    description: "Created LinkedIn Analysis and Engagement Improvement Plan",
+  },
+  {
+    id: "6",
+    title: "Memphis Listening Lab",
+    color: "#F4A261",
+    img: ml,
+    description: "Created an Internal Guide for Social Media",
+  },
+  {
+    id: "7",
+    title: "Epic Hire",
+    color: "#e9c46a",
+    img: hi,
+    description:
+      "Aided the brand in driving app downloads through social media posts, club partnerships, and rebranding the ambassador program ",
+  },
+  {
+    id: "8",
+    title: "Good Shephard RX",
+    color: "#264653",
+    img: goodsh,
+    description: " Created Internal Social Media Plan ",
+  },
+  {
+    id: "9",
+    title: "South Memphis Alliance",
+    color: "#264653",
+    img: sma_1,
+    description:
+      "Developed an internal social media plan, provided graphic design assistance, and coordinated a donation from Trader Joe’s",
+  },
+  {
+    id: "10",
+    title: "R2CW",
+    color: "#264653",
+    img: r2cw,
+    description: "Managed social media account for 6 months",
+  },
+  {
+    id: "11",
+    title: "Ayana Bio",
+    color: "#264653",
+    img: ayana,
+    description: "Developed a social media calendar",
+  },
 ];
+export let talent = [
+  {
+    name: "Ashton Hutchinson",
+    niche: "Entertainment and Fashion",
+    img: ashton,
+    socials: { "Instagram": "https://www.instagram.com/ashowrld/", "TikTok": "https://www.tiktok.com/@ashotiktokalot?is_from_webapp=1&sender_device=pc"},
+  },
+  {
+    name: "Darius King",
+    niche: "Fashion and Music",
+    img: darius,
+    socials: {"Instagram": "https://www.instagram.com/dariusking/", "TikTok":"https://www.tiktok.com/@dariuskingdaily?is_from_webapp=1&sender_device=pc", "YouTube":"http://www.youtube.com/@dariuskingofficial"}
+  },
+  {
+    name: "Jehlan White",
+    niche: "Fashion and Travel",
+    img: jehlan,
+    socials: {"Instagram": "https://www.instagram.com/jehlans/", "TikTok":"https://www.tiktok.com/@jehlans?is_from_webapp=1&sender_device=pc"}
+  },
+  {
+    name:"Lauryn Taylor",
+    niche: "Career and Lifestyle Coach",
+    img:lauryn,
+    socials:{"Instagram": "https://www.instagram.com/lauryn.jada/", "TikTok":"https://www.tiktok.com/@lauryn.jt?is_from_webapp=1&sender_device=pc","LinkedIn":"https://www.linkedin.com/in/lauryntaylor/"}
+  },
+  {
+    name:"Christopher Everett",
+    niche:"Lifestyle and Law School",
+    img:chris,
+    socials: {"TikTok":"https://www.tiktok.com/@chriseverettt?is_from_webapp=1&sender_device=pc"}
+  }
+]

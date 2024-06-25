@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import "../styles.css";
 
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
-import { cards } from "../constants";
+import { cards, clients } from "../constants";
+import { CardDefault } from "./Card";
+import { ClientCard } from "./ClientCard";
 
 const Cards = ({ cards, setIndex }) => {
   
@@ -140,13 +142,22 @@ export const ClientList = () => {
   return (
     <div
       id="clients"
-      className={` flex h-auto justify-center content-center bg-flashWhite`}
+      className={` flex h-auto justify-center content-center bg-flashWhite m-4`}
     >
-      <LayoutGroup>
+      <motion.div
+    initial={{ opacity: 0, x: -50 }} // Initial position for "Better Blueprint"
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8, delay: 0.8 }}
+      id="clients"
+      className={` grid md:grid-rows-3 grid-cols-1 md:grid-cols-3 h-auto justify-center content-center gap-10 pb-10 bg-flashWhite px-10`}
+    >
+      {cards.map((card, i) => {
+        return (<ClientCard key={i} talent={card}/>)
+      })}
+    </motion.div>
+      {/* <LayoutGroup>
         <AnimatePresence>
-          {/* Cards */}
           <Cards index={index} setIndex={setIndex} cards={cards} />
-          {/* Overlay */}
           {index !== false && (
             <motion.div
               initial={{ opacity: 0 }}
@@ -158,7 +169,6 @@ export const ClientList = () => {
               }}
               key="overlay"
               style={{
-                // backgroundColor: "rgba(0,0,0,0.99)",
                 width: "100vw",
                 height:  `${isMobile ? "450%": "260%"}`,
                 position: "absolute",
@@ -179,7 +189,7 @@ export const ClientList = () => {
             />
           )}
         </AnimatePresence>
-      </LayoutGroup>
+      </LayoutGroup> */}
     </div>
   );
 };
