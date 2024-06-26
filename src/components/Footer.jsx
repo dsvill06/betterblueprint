@@ -1,5 +1,5 @@
 import React from "react";
-import { betterblue, logo, fulllogo, jola } from "../assets";
+import { betterblue, logo, fulllogo, jola, bg2 } from "../assets";
 import { Link, useLocation } from 'react-router-dom';
 
 const path = window.location.pathname
@@ -15,7 +15,7 @@ const Footer = () => {
           <div class="mb-6 md:mb-0">
             <a class="flex items-center">
               <img
-                src={fulllogo}
+                src={bg2}
                 class="me-3 h-20"
                 alt="Better Blueprint Consulting Logo"
               />
@@ -66,7 +66,7 @@ const Footer = () => {
         <div class="sm:flex sm:items-center sm:justify-center">
           <span class="text-sm text-taupe sm:text-center ">
             © 2023{" "}
-              BetterBlueprint Consulting. All Rights Reserved. Designed By David Villavicencio
+              Better Blueprint Consulting. All Rights Reserved. Designed By David Villavicencio
           </span>
         </div>
       </div>

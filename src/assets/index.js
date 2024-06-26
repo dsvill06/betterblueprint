@@ -33,5 +33,10 @@ import lauryn from './lauryn.png'
 import darius from './darius.png'
 import chris from './chris.png'
 import client from './clientbg.png'
+import hb from './hb.png'
+import lp from './lp.png'
+import ar from './ar.png'
+import ls from './ls.png'
+import bg2 from './betterwithoutbg.png'
 
-export {logo, hi,sma, ayana,one,two,three,jehlan,client,ashton, lauryn, darius, chris,four,five,six,seven,founder, goodsh,sma_1,aveni,gs,r2cw, betterblue,ml, bpm, david,blueprint, fulllogo, healthyheels, menu, consulting, kwench, franklin, jola}
+export {logo, hi,sma,ar,ls,hb,lp,bg2, ayana,one,two,three,jehlan,client,ashton, lauryn, darius, chris,four,five,six,seven,founder, goodsh,sma_1,aveni,gs,r2cw, betterblue,ml, bpm, david,blueprint, fulllogo, healthyheels, menu, consulting, kwench, franklin, jola}

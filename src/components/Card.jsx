@@ -13,13 +13,16 @@ import { ashton } from "../assets";
     console.log(talent.talent.socials)
     // console.log(Object(talent.talent.socials).keys())
     return (
-      <Card className="mt-6 w-96">
+      <Card className="mt-6 w-full">
         <CardHeader color="blue-gray" className="relative h-56 object-cover">
 
         <img src={talent.talent.img} alt="card-image" className=" h-full w-full object-cover object-top" />
         </CardHeader>
         <CardBody>
-          <Typography variant="h5" color="blue-gray" className="mb-2">
+        <Typography variant="h5" color="blue-gray" className="mb-2">
+            {talent.talent.name}
+          </Typography>
+          <Typography variant="h3" color="blue-gray" className="mb-2 text-sm">
             {talent.talent.niche}
           </Typography>
 

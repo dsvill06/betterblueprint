@@ -13,7 +13,7 @@ const TalentHero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}>
         <span className="block mb-4 text-xs md:text-lg text-primary font-medium">
-          BetterBlueprint
+          Better Blueprint
         </span>
         <h3 className="text-4xl md:text-7xl font-semibold text-[#ADC9F3]">
          Talent Roster

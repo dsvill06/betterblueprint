@@ -26,7 +26,7 @@ const ClientHero = () => {
             className=" z-10"
           >
             <span className="block mb-4 text-xs md:text-lg text-primary font-medium">
-              BetterBlueprint
+              Better Blueprint
             </span>
             <h3 className="text-4xl md:text-7xl font-semibold text-white">
               Our Clients

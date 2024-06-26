@@ -20,7 +20,11 @@ import {
   sma_1,
   three,
   two,
-  ashton, chris, darius, jehlan, lauryn
+  ashton, chris, darius, jehlan, lauryn,
+  hb,
+  lp,
+  ar,
+  ls
 } from "../assets";
 
 export const navLinks = [
@@ -189,7 +193,7 @@ export const services = [
       "In-person or Virtual",
     ],
     moreInfo:
-      "Introducing our personalized consulting plan, designed to match your unique needs. Pricing will be determined based on your comprehensive package, ensuring exceptional value for your investment. With a flexible monthly meeting schedule that aligns with your business rhythm, you can expect regular interactions that drive progress. Our holistic approach covers various areas, including refining your social media strategy, optimizing email communications, developing in-store promotion tactics, enhancing graphic design, and crafting an effective ambassador program. By presenting your Business Challenge to our adept team of consultants, you tap into diverse expertise, enabling us to synthesize collective insights into a coherent blueprint presentation. Your success story begins with a tailored plan that adapts to your business's journey.    ",
+      "Introducing our personalized consulting plan, designed to match your unique needs. Pricing will be determined based on your comprehensive package, ensuring exceptional value for your investment. With a flexible monthly meeting schedule that aligns with your business rhythm, you can expect regular interactions that drive progress. Our holistic approach covers various areas, including refining your social media strategy, optimizing email communications, developing in-store promotion tactics, enhancing graphic design, and crafting an effective ambassador program. By presenting your Business Challenge to our adept team of consultants, you tap into diverse expertise, enabling us to synthesize collective insights into a coherent blueprint presentation. Your success story begins with a tailored plan that adapts to your business's journey.",
   },
 ];
 
@@ -200,7 +204,7 @@ export let cards = [
     color: "#e76f51",
     img: kwench,
     description:
-      "Established a TikTok and Instagram account for the brand, produced and published 80 engaging Instagram reels over six months, and grew the Instagram page from zero to 500 followers. The best reel garnered 853 likes and 6000 views",
+      "Established a TikTok and Instagram account for the brand, produced and published 80 engaging Instagram reels over six months, and grew the Instagram page from zero to 500 followers. The best reel garnered 853 likes and 6000 views.",
   },
   {
     id: "1",
@@ -208,7 +212,7 @@ export let cards = [
     color: "#F4A261",
     img: franklin,
     description:
-      "Created a strategic brand partnership between Celsius and a student-run festival company, resulting in a $15,000 donation from Celsius to aid in event costs and a $10,000 product donation for festival attendees and staff",
+      "Created a strategic brand partnership between Celsius and a student-run festival company, resulting in a $15,000 donation from Celsius to aid in event costs and a $10,000 product donation for festival attendees and staff.",
   },
   {
     id: "2",
@@ -216,7 +220,7 @@ export let cards = [
     color: "#e9c46a",
     img: jola,
     description:
-      "Successfully sourced and onboarded a dedicated student social media intern, enhancing Jola House's online presence and engagement. Crafted a comprehensive launch plan for their pioneering college ambassador program, harnessing the power of student networks to amplify their impact. Infused fresh and trendy designs tailored to the college student demographic, adding a contemporary touch to Jola House's branding",
+      "Successfully sourced and onboarded a dedicated student social media intern, enhancing Jola House's online presence and engagement. Crafted a comprehensive launch plan for their pioneering college ambassador program, harnessing the power of student networks to amplify their impact. Infused fresh and trendy designs tailored to the college student demographic, adding a contemporary touch to Jola House's branding.",
   },
   {
     id: "3",
@@ -224,7 +228,7 @@ export let cards = [
     color: "#e9c46a",
     img: healthyheels,
     description:
-      "Consistently produced 1-2 reels per week on health topics and proficiently managed Instagram engagement and interaction. From July 26th to October 23rd, played a critical role in account growth, achieving a 3.7 percent increase in followers, a 1265 percent increase in accounts engaged, and a 287 percent increase in accounts reached compared to the previous 90-day period. The top reel received 851 likes and 9.7k views",
+      "Consistently produced 1-2 reels per week on health topics and proficiently managed Instagram engagement and interaction. From July 26th to October 23rd, played a critical role in account growth, achieving a 3.7 percent increase in followers, a 1265 percent increase in accounts engaged, and a 287 percent increase in accounts reached compared to the previous 90-day period. The top reel received 851 likes and 9.7k views.",
   },
   {
     id: "4",
@@ -232,21 +236,21 @@ export let cards = [
     color: "#264653",
     img: bpm,
     description:
-      "Produced five live events on educational topics featuring black professionals, each averaging 4.6k views and 210k impressions. Negotiated partnerships with ten businesses to be featured in the annual holiday magazine. ",
+      "Produced five live events on educational topics featuring black professionals, each averaging 4.6k views and 210k impressions. Negotiated partnerships with ten businesses to be featured in the annual holiday magazine.",
   },
   {
     id: "5",
     title: "Aveni",
     color: "#e76f51",
     img: aveni,
-    description: "Created LinkedIn Analysis and Engagement Improvement Plan",
+    description: "Created LinkedIn Analysis and Engagement Improvement Plan.",
   },
   {
     id: "6",
     title: "Memphis Listening Lab",
     color: "#F4A261",
     img: ml,
-    description: "Created an Internal Guide for Social Media",
+    description: "Created an Internal Guide for Social Media.",
   },
   {
     id: "7",
@@ -254,14 +258,14 @@ export let cards = [
     color: "#e9c46a",
     img: hi,
     description:
-      "Aided the brand in driving app downloads through social media posts, club partnerships, and rebranding the ambassador program ",
+      "Aided the brand in driving app downloads through social media posts, club partnerships, and rebranding the ambassador program.",
   },
   {
     id: "8",
     title: "Good Shephard RX",
     color: "#264653",
     img: goodsh,
-    description: " Created Internal Social Media Plan ",
+    description: " Created Internal Social Media Plan. ",
   },
   {
     id: "9",
@@ -269,21 +273,21 @@ export let cards = [
     color: "#264653",
     img: sma_1,
     description:
-      "Developed an internal social media plan, provided graphic design assistance, and coordinated a donation from Trader Joe’s",
+      "Developed an internal social media plan, provided graphic design assistance, and coordinated a donation from Trader Joe’s.",
   },
   {
     id: "10",
     title: "R2CW",
     color: "#264653",
     img: r2cw,
-    description: "Managed social media account for 6 months",
+    description: "Managed social media account for 6 months.",
   },
   {
     id: "11",
     title: "Ayana Bio",
     color: "#264653",
     img: ayana,
-    description: "Developed a social media calendar",
+    description: "Developed a social media calendar.",
   },
 ];
 export let talent = [
@@ -316,5 +320,29 @@ export let talent = [
     niche:"Lifestyle and Law School",
     img:chris,
     socials: {"TikTok":"https://www.tiktok.com/@chriseverettt?is_from_webapp=1&sender_device=pc"}
+  },
+  {
+    name:"Holland Bodne",
+    niche:"Lifestyle and Beauty",
+    img:hb,
+    socials: {"TikTok":"https://www.tiktok.com/@h.tylerr?_t=8nWnvMDPwsc&_r=1","Instagram":"https://www.instagram.com/hollandd.tyler?igsh=NWdteXhiZ2lwbmVy"}
+  },
+  {
+    name:"Leah Paige",
+    niche:"Lifestyle and Beauty",
+    img:lp,
+    socials: {"TikTok":"https://www.tiktok.com/@leahcimone?_t=8nWo1VgM7Nm&_r=1","Instagram":"https://www.instagram.com/leahcpaige?igsh=bTJiMHN0Y3VnNW9y"}
+  },
+  {
+    name:"Amaya Roberson",
+    niche:"Career and Lifestyle",
+    img:ar,
+    socials: {"LinkedIn":"https://www.linkedin.com/in/amaya-roberson?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app","Spotify":"https://open.spotify.com/show/5oBd0Sy2LHyxYt6ygAD62u"}
+  },
+  {
+    name:"Liliana Stewart",
+    niche:"Beauty",
+    img:ls,
+    socials: {"TikTok":"https://www.tiktok.com/@lilianaamariaaa?_t=8nWpcEJOgJu&_r=1","Instagram":"https://www.instagram.com/lilianaamariaa?igsh=dDV4bmdtMmZodzRt"}
   }
 ]
