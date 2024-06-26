@@ -239,11 +239,12 @@ export let cards = [
       "Produced five live events on educational topics featuring black professionals, each averaging 4.6k views and 210k impressions. Negotiated partnerships with ten businesses to be featured in the annual holiday magazine.",
   },
   {
-    id: "5",
-    title: "Aveni",
-    color: "#e76f51",
-    img: aveni,
-    description: "Created LinkedIn Analysis and Engagement Improvement Plan.",
+    id: "7",
+    title: "Epic Hire",
+    color: "#e9c46a",
+    img: hi,
+    description:
+      "Aided the brand in driving app downloads through social media posts, club partnerships, and rebranding the ambassador program.",
   },
   {
     id: "6",
@@ -252,14 +253,7 @@ export let cards = [
     img: ml,
     description: "Created an Internal Guide for Social Media.",
   },
-  {
-    id: "7",
-    title: "Epic Hire",
-    color: "#e9c46a",
-    img: hi,
-    description:
-      "Aided the brand in driving app downloads through social media posts, club partnerships, and rebranding the ambassador program.",
-  },
+  
   {
     id: "8",
     title: "Good Shephard RX",
@@ -288,6 +282,13 @@ export let cards = [
     color: "#264653",
     img: ayana,
     description: "Developed a social media calendar.",
+  },
+  {
+    id: "5",
+    title: "Aveni",
+    color: "#e76f51",
+    img: aveni,
+    description: "Created LinkedIn Analysis and Engagement Improvement Plan.",
   },
 ];
 export let talent = [

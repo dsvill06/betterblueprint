@@ -11,7 +11,7 @@ import {
   export function ClientCard(client) {
     console.log(client.talent)
     return (
-      <Card className="max-w-[34rem] max-h-[42rem] overflow-hidden">
+      <Card className="max-w-[34rem] max-h-[36rem] overflow-hidden">
         <CardHeader
           floated={false}
           shadow={false}
@@ -24,7 +24,7 @@ import {
             className="h-full w-full object-middle object-cover"
           />
         </CardHeader>
-        <CardBody>
+        <CardBody className="h-auto">
           <Typography variant="h4" color="blue-gray">
             {client.talent.title}
           </Typography>
