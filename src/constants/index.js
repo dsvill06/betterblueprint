@@ -323,7 +323,7 @@ export let talent = [
     socials: {"TikTok":"https://www.tiktok.com/@chriseverettt?is_from_webapp=1&sender_device=pc"}
   },
   {
-    name:"Holland Bodne",
+    name:"Holland Bodner",
     niche:"Lifestyle and Beauty",
     img:hb,
     socials: {"TikTok":"https://www.tiktok.com/@h.tylerr?_t=8nWnvMDPwsc&_r=1","Instagram":"https://www.instagram.com/hollandd.tyler?igsh=NWdteXhiZ2lwbmVy"}
