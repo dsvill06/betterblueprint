@@ -18,7 +18,7 @@ export const TalentList = () => {
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.8, delay: 0.8 }}
       id="clients"
-      className={`grid grid-cols-4 grid-rows-2 h-auto justify-center content-center gap-10 pb-10 bg-flashWhite px-10`}
+      className={`grid grid-cols-1 md:grid-cols-4  md:grid-rows-2 h-auto justify-center content-center gap-10 pb-10 bg-flashWhite px-10`}
     >
       {talent.map((talent, i) => {
         return (<CardDefault key={i} talent={talent}/>)
